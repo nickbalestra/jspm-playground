@@ -6,6 +6,9 @@
   "scripts": {
     "postinstall": "jspm install"
   },
+  "dependencies": {
+    "express": "^4.14.0"
+  },
   "devDependencies": {
     "jspm": "^0.16.42"
   },
