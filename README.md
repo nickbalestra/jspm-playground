@@ -20,7 +20,7 @@ jspm-playground/
 ```
 
 TODO:
-- [] initialize npm
+- [x] initialize npm
 - [] install jspm and initialize it
 - [] install express and set-up a basic server
 - [] test System.js 
