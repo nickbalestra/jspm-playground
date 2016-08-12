@@ -1,0 +1,16 @@
+{
+  "name": "jspm-playground",
+  "version": "0.0.1",
+  "description": "Frictionless browser package management",
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickbalestra/jspm-playground.git"
+  },
+  "author": "nick@balestra.ch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nickbalestra/jspm-playground/issues"
+  },
+  "homepage": "https://github.com/nickbalestra/jspm-playground#readme"
+}
