@@ -22,6 +22,6 @@ jspm-playground/
 TODO:
 - [x] initialize npm
 - [x] install jspm and initialize it
-- [] install express and set-up a basic server
+- [x] install express and set-up a basic server
 - [] test System.js 
 - [] us jspm to install react and enjoy
