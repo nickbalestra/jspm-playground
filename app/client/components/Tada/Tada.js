@@ -1,15 +1,18 @@
 import React from 'react'
-import { StyleSheet, css } from 'aphrodite'
+import useSheet from 'react-jss'
 
-const App = () => (
-  <h1 className={css(styles.red)}>TADA!</h1>
+const App = (props) => {
+  const { classes } = props.sheet
+  return (
+    <h1 className={classes.red}>TADA!</h1>
   )
+}
 
-const styles = StyleSheet.create({
+const styles = {
   red: {
     background: 'red',
     color: 'white'
   }
-})
+}
 
-export default App
+export default useSheet(App, styles)

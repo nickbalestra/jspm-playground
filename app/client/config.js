@@ -14,12 +14,12 @@ System.config({
   },
 
   map: {
-    "aphrodite": "npm:aphrodite@0.5.0",
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "core-js": "npm:core-js@1.2.7",
     "react": "npm:react@15.3.0",
     "react-dom": "npm:react-dom@15.3.0",
+    "react-jss": "npm:react-jss@3.0.1",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.4.1"
     },
@@ -66,12 +66,6 @@ System.config({
     },
     "github:jspm/nodelibs-zlib@0.1.0": {
       "browserify-zlib": "npm:browserify-zlib@0.1.4"
-    },
-    "npm:aphrodite@0.5.0": {
-      "asap": "npm:asap@2.0.4",
-      "inline-style-prefixer": "npm:inline-style-prefixer@2.0.1",
-      "path": "github:jspm/nodelibs-path@0.1.0",
-      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:asap@2.0.4": {
       "domain": "github:jspm/nodelibs-domain@0.1.0",
@@ -148,16 +142,18 @@ System.config({
     "npm:inherits@2.0.1": {
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
-    "npm:inline-style-prefixer@2.0.1": {
-      "bowser": "npm:bowser@1.4.4",
-      "hyphenate-style-name": "npm:hyphenate-style-name@1.0.1"
-    },
     "npm:isarray@1.0.0": {
       "systemjs-json": "github:systemjs/plugin-json@0.1.2"
     },
     "npm:isomorphic-fetch@2.2.1": {
       "node-fetch": "npm:node-fetch@1.6.0",
       "whatwg-fetch": "npm:whatwg-fetch@1.0.0"
+    },
+    "npm:jss@5.3.0": {
+      "murmurhash-js": "npm:murmurhash-js@1.0.0",
+      "path": "github:jspm/nodelibs-path@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "systemjs-json": "github:systemjs/plugin-json@0.1.2"
     },
     "npm:loose-envify@1.2.0": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
@@ -202,6 +198,12 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:react-dom@15.3.0": {
+      "react": "npm:react@15.3.0"
+    },
+    "npm:react-jss@3.0.1": {
+      "hoist-non-react-statics": "npm:hoist-non-react-statics@1.1.0",
+      "jss": "npm:jss@5.3.0",
+      "process": "github:jspm/nodelibs-process@0.1.2",
       "react": "npm:react@15.3.0"
     },
     "npm:react@15.3.0": {

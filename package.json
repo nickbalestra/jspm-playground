@@ -18,9 +18,9 @@
       "baseURL": "app/client"
     },
     "dependencies": {
-      "aphrodite": "npm:aphrodite@^0.5.0",
       "react": "npm:react@^15.3.0",
-      "react-dom": "npm:react-dom@^15.3.0"
+      "react-dom": "npm:react-dom@^15.3.0",
+      "react-jss": "npm:react-jss@^3.0.1"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
