@@ -16,13 +16,11 @@ jspm-playground/
     |-- index.js
 |-- node_modules/
 |-- package.json
-|-- .gitignore 
 |-- README.md
 ```
 
 TODO:
 - [] initialize npm
-- [] ignore files
 - [] install jspm and initialize it
 - [] install express and set-up a basic server
 - [] test System.js 
