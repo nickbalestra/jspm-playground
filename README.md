@@ -24,4 +24,4 @@ TODO:
 - [x] install jspm and initialize it
 - [x] install express and set-up a basic server
 - [x] test System.js 
-- [] us jspm to install react and enjoy
+- [x] us jspm to install react and enjoy
