@@ -32,4 +32,10 @@ CSS modularisation where styles can be scoped directly to the render code that t
 In this example we'll be installing [Aphrodite](https://github.com/Khan/aphrodite) via jspm, and slightly componentize a bit our initial app structure.
 
 - [x] install Aphrodite
-- [x] import the module and start writing css modules! 
+- [x] import the module and start writing css modules!
+
+## Hot reloading
+
+Reloading modules as needed to have a satisfyingly fast feedback loop when developing
+
+- [x] using system-js-hot-reloader together with chokidar-socket-emitter

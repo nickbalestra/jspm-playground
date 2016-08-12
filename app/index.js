@@ -5,7 +5,6 @@ const http = require('http')
 const server = express()
 const port = process.env.PORT || 8000
 
-server.set('port', port)
 server.use(express.static(`${__dirname}/client`))
 server.get('/', (res, req) => res.sendFile(`${__dirname}/client/index.html`))
 
