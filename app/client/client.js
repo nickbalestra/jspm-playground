@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Tada from './components/Tada/Tada.js' 
 
-const App = () => <h1>TADA!</h1>
-
-ReactDOM.render(<App />, document.getElementById('app'))
+ReactDOM.render(<Tada />, document.getElementById('app'))
