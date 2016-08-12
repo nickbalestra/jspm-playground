@@ -25,3 +25,11 @@ TODO:
 - [x] install express and set-up a basic server
 - [x] test System.js 
 - [x] us jspm to install react and enjoy
+
+## CSS modules
+
+CSS modularisation where styles can be scoped directly to the render code that they are bundled are awesome!
+In this example we'll be installing [Aphrodite](https://github.com/Khan/aphrodite) via jspm, and slightly componentize a bit our initial app structure.
+
+- [x] install Aphrodite
+- [x] import the module and start writing css modules! 

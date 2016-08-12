@@ -14,6 +14,7 @@ System.config({
   },
 
   map: {
+    "aphrodite": "npm:aphrodite@0.5.0",
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "core-js": "npm:core-js@1.2.7",
@@ -65,6 +66,12 @@ System.config({
     },
     "github:jspm/nodelibs-zlib@0.1.0": {
       "browserify-zlib": "npm:browserify-zlib@0.1.4"
+    },
+    "npm:aphrodite@0.5.0": {
+      "asap": "npm:asap@2.0.4",
+      "inline-style-prefixer": "npm:inline-style-prefixer@2.0.1",
+      "path": "github:jspm/nodelibs-path@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:asap@2.0.4": {
       "domain": "github:jspm/nodelibs-domain@0.1.0",
@@ -140,6 +147,10 @@ System.config({
     },
     "npm:inherits@2.0.1": {
       "util": "github:jspm/nodelibs-util@0.1.0"
+    },
+    "npm:inline-style-prefixer@2.0.1": {
+      "bowser": "npm:bowser@1.4.4",
+      "hyphenate-style-name": "npm:hyphenate-style-name@1.0.1"
     },
     "npm:isarray@1.0.0": {
       "systemjs-json": "github:systemjs/plugin-json@0.1.2"

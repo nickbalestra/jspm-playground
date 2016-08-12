@@ -1,4 +1,15 @@
 import React from 'react'
-const App = () => <h1>TADA!</h1>
+import { StyleSheet, css } from 'aphrodite'
+
+const App = () => (
+  <h1 className={css(styles.red)}>TADA!</h1>
+  )
+
+const styles = StyleSheet.create({
+  red: {
+    background: 'red',
+    color: 'white'
+  }
+})
 
 export default App
