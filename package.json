@@ -1,0 +1,51 @@
+{
+  "name": "jspm-playground",
+  "version": "1.0.0",
+  "description": "Frictionless browser package management",
+  "main": "app/index.js",
+  "scripts": {
+    "postinstall": "jspm install",
+    "start": "npm run build && NODE_ENV=production node app",
+    "dev": "standard && NODE_ENV=development node app",
+    "build": "standard && jspm bundle-sfx client app/public/build-sfx.js -m"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "chokidar-socket-emitter": "^0.5.4",
+    "jspm": "^0.16.42",
+    "standard": "^7.1.2"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "app/client"
+    },
+    "dependencies": {
+      "react": "npm:react@^15.3.0",
+      "react-dom": "npm:react-dom@^15.3.0",
+      "react-jss": "npm:react-jss@^3.0.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "standard": {
+    "ignore": [
+      "**/config.js",
+      "/app/public/"
+    ]
+  },
+  "author": "nick@balestra.ch",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickbalestra/jspm-playground.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nickbalestra/jspm-playground/issues"
+  },
+  "homepage": "https://github.com/nickbalestra/jspm-playground#readme"
+}
