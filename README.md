@@ -12,10 +12,17 @@ jspm-playground/
 |-- app/
     |-- client/
         |-- config.js
-        |-- jspm_packages/
         |-- client.js
         |-- index.html
+        |-- jspm_packages/
+        |-- components/
+            |-- tada/
+                |-- tada.js
     |-- index.js
+    |-- public/
+        |-- index.html
+        |-- build-sfx.js
+        |-- build-sfx.js.map
 |-- node_modules/
 |-- package.json
 |-- README.md

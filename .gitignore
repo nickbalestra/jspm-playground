@@ -4,3 +4,6 @@ jspm_packages
 
 # OS specific
 .DS_Store
+
+# SFX Build files
+public/**/build*.*
