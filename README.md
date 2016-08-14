@@ -39,3 +39,8 @@ In this example we'll be installing [Aphrodite](https://github.com/Khan/aphrodit
 Reloading modules as needed to have a satisfyingly fast feedback loop when developing
 
 - [x] using system-js-hot-reloader together with chokidar-socket-emitter
+
+## Production workflows
+
+- [x] Sfx bundle and production index
+- [x] Build scripts

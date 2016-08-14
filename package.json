@@ -1,11 +1,13 @@
 {
   "name": "jspm-playground",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Frictionless browser package management",
   "main": "app/index.js",
   "scripts": {
     "postinstall": "jspm install",
-    "start": "node app"
+    "start": "npm run build && NODE_ENV=production node app",
+    "dev": "NODE_ENV=development node app",
+    "build": "jspm bundle-sfx client app/public/build-sfx.js -m"
   },
   "dependencies": {
     "express": "^4.14.0"
