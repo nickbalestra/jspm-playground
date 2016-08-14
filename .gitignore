@@ -6,4 +6,4 @@ jspm_packages
 .DS_Store
 
 # SFX Build files
-public/**/build*.*
+app/**/build*.*
