@@ -1,5 +1,7 @@
 # JSPM playground
 
+[![JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+
 ## Getting started
 
 This branch will follow some simple steps to get you up and running with jspm at a basic level.

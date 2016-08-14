@@ -1,7 +1,6 @@
 const chokidarSocketEmitter = require('chokidar-socket-emitter')
 const express = require('express')
 const http = require('http')
-const path = require('path')
 
 const server = express()
 const port = process.env.PORT || 8000

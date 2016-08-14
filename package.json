@@ -6,15 +6,16 @@
   "scripts": {
     "postinstall": "jspm install",
     "start": "npm run build && NODE_ENV=production node app",
-    "dev": "NODE_ENV=development node app",
-    "build": "jspm bundle-sfx client app/public/build-sfx.js -m"
+    "dev": "standard && NODE_ENV=development node app",
+    "build": "standard && jspm bundle-sfx client app/public/build-sfx.js -m"
   },
   "dependencies": {
     "express": "^4.14.0"
   },
   "devDependencies": {
     "chokidar-socket-emitter": "^0.5.4",
-    "jspm": "^0.16.42"
+    "jspm": "^0.16.42",
+    "standard": "^7.1.2"
   },
   "jspm": {
     "directories": {
@@ -30,6 +31,12 @@
       "babel-runtime": "npm:babel-runtime@^5.8.24",
       "core-js": "npm:core-js@^1.1.4"
     }
+  },
+  "standard": {
+    "ignore": [
+      "**/config.js",
+      "/app/public/"
+    ]
   },
   "author": "nick@balestra.ch",
   "license": "MIT",
